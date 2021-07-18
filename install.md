@@ -103,4 +103,5 @@
 [星空QQ群]: https://jq.qq.com/?_wv=1027&k=5tVcZlL "星空QQ群"
 [星空官网]: https://xkinput.gitee.io/ "星空系列方案官网"
 [小小星空项目]: https://gitee.com/xkinput/xxxk "小小星空项目"
+
 [星空电报群]: https://t.me/xkinput "星空电报群"
