@@ -2,7 +2,7 @@
 
 # 小小星空
 
-[![version](https://img.shields.io/badge/version-1.0.2-brightgreen)](https://gitee.com/xkinput/xxxk/releases) ![platform](https://img.shields.io/badge/platform-windows|android|linux-yellowgreen)
+[![version](https://img.shields.io/badge/version-1.0.2-brightgreen)](https://github.com/xkinput/xxxk/releases) ![platform](https://img.shields.io/badge/platform-windows|android|linux-yellowgreen)
 
 > 将星空系列汉字编码方案挂载到小小输入法。
 
