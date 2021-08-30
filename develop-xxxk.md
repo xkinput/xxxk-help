@@ -2,7 +2,7 @@
 
 ## 复刻源码
 
-本项目源码托管在码云：https://gitee.com/xkinput/xxxk
+本项目源码托管在码云：https://github.com/xkinput/xxxk
 
 ## 项目架构
 
@@ -73,7 +73,8 @@
 [小小星空网盘]: http://xxxk.ys168.com/ "小小星空网盘"
 
 [星空QQ群]: https://jq.qq.com/?_wv=1027&k=5tVcZlL "星空QQ群"
-[星空官网]: https://xkinput.gitee.io/ "星空系列方案官网"
-[小小星空项目]: https://gitee.com/xkinput/xxxk "小小星空项目"
+[星空官网]: https://xkinput.github.io/ "星空系列方案官网"
+[小小星空项目]: https://github.com/xkinput/xxxk "小小星空项目"
+
 [星空电报群]: https://t.me/xkinput "星空电报群"
 

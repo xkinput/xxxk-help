@@ -108,7 +108,7 @@
 
 配置文件编辑完成并保存后，在输入法设置里切换到你的皮肤，然后热重启输入法，预览皮肤效果。
 
-欢迎贡献你的成果到本项目：https://gitee.com/xkinput/xxxk-skin-pc
+欢迎贡献你的成果到本项目：https://github.com/xkinput/xxxk-skin-pc
 
 ## 分享一些经验
 
