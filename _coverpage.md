@@ -12,4 +12,4 @@
 
 
 
-[<i class="fa fa-star-o"></i> 关注项目](https://gitee.com/xkinput/xxxk) [<i class="fa fa-download"></i> 下载安装](http://xxxk.ys168.com/)
+[<i class="fa fa-star-o"></i> 关注项目](https://github.com/xkinput/xxxk) [<i class="fa fa-download"></i> 下载安装](http://xxxk.ys168.com/)
