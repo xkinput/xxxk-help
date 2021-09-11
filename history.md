@@ -1,6 +1,6 @@
 # 更新历史
 
-<iframe height='400' scrolling='no' title='小小星空更新时间线' src='_plugins/echarts-210718/timeline.html' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>小小星空更新时间线</iframe>
+<iframe height='400' scrolling='no' title='小小星空更新时间线' src='_plugins/echarts-210911/timeline.html' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>小小星空更新时间线</iframe><!-- v5.2.0 -->
 
 ##### v1.0.3.0-Build20210911
 

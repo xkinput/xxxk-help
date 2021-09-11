@@ -2,4 +2,5 @@
 Prop3=19,11
 [InternetShortcut]
 IDList=
-URL=https://cdn.jsdelivr.net/npm/docsify-corner/dist/docsify-corner.min.js
+URL=https://www.jsdelivr.com/package/npm/docsify-fontawesome?path=dist
+HotKey=0

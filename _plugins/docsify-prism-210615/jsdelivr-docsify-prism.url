@@ -2,4 +2,5 @@
 Prop3=19,11
 [InternetShortcut]
 IDList=
-URL=https://unpkg.com/docsify-pagination/dist/docsify-pagination.min.js
+URL=https://www.jsdelivr.com/package/npm/docsify-prism?path=dist
+HotKey=0

@@ -2,4 +2,5 @@
 Prop3=19,11
 [InternetShortcut]
 IDList=
-URL=https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css
+URL=https://www.jsdelivr.com/package/npm/docsify?path=lib
+HotKey=0

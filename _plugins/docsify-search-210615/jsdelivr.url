@@ -2,4 +2,5 @@
 Prop3=19,11
 [InternetShortcut]
 IDList=
-URL=https://cdn.jsdelivr.net/npm/echarts@latest/dist/echarts.min.js
+URL=https://www.jsdelivr.com/package/npm/docsify?path=lib/plugins
+HotKey=0

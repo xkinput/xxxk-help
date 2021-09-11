@@ -2,4 +2,5 @@
 Prop3=19,11
 [InternetShortcut]
 IDList=
-URL=https://cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css
+URL=https://www.jsdelivr.com/package/npm/docsify-corner?path=dist
+HotKey=0

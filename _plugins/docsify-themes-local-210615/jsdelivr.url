@@ -2,4 +2,5 @@
 Prop3=19,11
 [InternetShortcut]
 IDList=
-URL=https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js
+URL=https://www.jsdelivr.com/package/npm/docsify?path=lib/themes
+HotKey=0
