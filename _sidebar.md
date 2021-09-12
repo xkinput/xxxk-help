@@ -1,5 +1,4 @@
-- [项目概述](README.md)
-
+* [项目概述](README.md)
 * [下载安装](install.md)
 * [使用说明](intro.md)
   * [方案介绍](intro-schema.md)
