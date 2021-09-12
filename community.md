@@ -1,6 +1,7 @@
 # :fa fa-comments: 社区支持
 
-* [:fa fa-qq: 星空QQ吹水群：320053116][星空QQ群]
+* [:fa fa-qq: 星空QQ群：320053116][星空QQ群]
+* [:fa fa-qq: 键道QQ群：865189947][键道QQ群]
 * [:fa fa-home: 星空系列方案官网][星空官网]
 * [:fa fa-telegram: 星空电报交流群][星空电报群]
 
@@ -12,6 +13,7 @@
 [小小星空网盘]: http://xxxk.ys168.com/ "小小星空网盘"
 
 [星空QQ群]: https://jq.qq.com/?_wv=1027&k=5tVcZlL "星空QQ群"
+[键道QQ群]: https://jq.qq.com/?_wv=1027&k=WxhhXU6u "键道QQ群"
 
 [星空官网]: https://xkinput.github.io/ "星空系列方案官网"
 
