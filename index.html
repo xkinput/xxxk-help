@@ -7,11 +7,10 @@
   <meta name="小小星空的首页 & 帮助文档" content="xxxk-help">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="icon" type="image/x-icon" href="_media/favicon.ico"/>
-  <link rel="stylesheet" href="_plugins/docsify-themes-local-210615/vue.css"><!-- v4.12.1 -->
   <link rel="stylesheet" href="_plugins/font-awesome-4.7.0/css/font-awesome.min.css"><!-- v4.7.0 -->
-  <link rel="stylesheet" href="_plugins/docsify-sidebar-collapse-210615/sidebar.min.css" /><!-- v1.3.5 -->
-  <link rel="stylesheet" href="_plugins/docsify-darklight-theme-local-210911/style.min.css" title="docsify-darklight-theme" type="text/css" /><!-- v3.2.0 -->
-  
+  <link rel="stylesheet" href="_plugins/docsify-themeable-211219/theme-simple.css" /> <!-- v0.8.6 -->
+  <link rel="stylesheet" href="_plugins/docsify-themeable-211219/thxnder-custom-theme.css"> <!-- v0.8.6 -->
+
   <style>
     .docsify-tabs__tab[data-tab="windows"]:before{
         font-family: 'FontAwesome';
@@ -38,6 +37,7 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
+      auto2top: true,
       requestHeaders: {
         'cache-control': 'max-age=0',
       },
@@ -81,27 +81,12 @@
         crossChapter: true,
         crossChapterText: false,
       },
-      darklightTheme: {
-        dark: {
-          toogleImage : 'url(icons/sun.svg)',
-          coverBackground : 'linear-gradient(to bottom, rgb(34, 136, 202) 0%, rgb(9, 26, 40) 100%',
-        },
-        light: {
-          toogleImage : 'url(icons/moon.svg)',
-          coverBackground : 'linear-gradient(to bottom, #66CCFF 0%, #77DDFF 50%, #FFFFFF 100%',
-        }
-      },
       footer: {
         pre: '<hr/>',
         copy: '<span>© 小小星空 2017-2022</span>',
         auth: '@thXnder',
         style: 'text-align: right;',
         class: 'thxnder-footer-class',
-      },
-      progress: {
-        position: "top",
-        color: "var(--theme-color,#42b983)",
-        height: "3px",
       },
       plugins: [
         function(hook, vm) {
@@ -128,13 +113,12 @@
   <script src="_plugins/docsify-sidebar-collapse-210615/docsify-sidebar-collapse.min.js"></script><!-- v1.3.5 -->
   <script src="_plugins/docsify-corner-211219/docsify-corner.min.js"></script><!-- v1.0.6 -->
   <script src="_plugins/docsify-search-210615/search.min.js"></script><!-- v4.12.1 -->
-  <script src="_plugins/docsify-darklight-theme-local-210911/index.min.js" type="text/javascript"></script><!-- v3.2.0 -->
   <script src="_plugins/docsify-pagination-211219/docsify-pagination.min.js"></script><!-- v2.6.2 -->
   <script src="_plugins/docsify-footer-enh-210615/docsify-footer-enh.min.js"></script><!-- 0.0.6 -->
-  <script src="_plugins/docsify-progress-210911/progress.min.js"></script><!-- v1.0.3 -->
   <script src="_plugins/docsify-prism-211219/prism-batch.min.js"></script><!-- v1.25.0 -->
   <script src="_plugins/docsify-prism-211219/prism-ini.min.js"></script><!-- v1.25.0 -->
   <script src="_plugins/docsify-prism-211219/prism-nsis.min.js"></script><!-- v1.25.0 -->
+  <script src="_plugins/docsify-themeable-211219/docsify-themeable.min.js"></script> <!-- v0.8.6 -->
 
 </body>
 </html>

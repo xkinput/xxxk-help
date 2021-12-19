@@ -44,13 +44,13 @@
 
 ### ** Windows **
 
-1. 下载[原版小小输入法Windows版 :fa fa-external-link:][小小网盘]（7z格式）并解压。
+1. 下载[原版小小输入法Windows版][小小网盘]（7z格式）并解压。
 2. 将本项目的各个一级目录（如`xxxk-xkcommon`）下的文件依次复制粘贴到解压后的程序目录下。
-3. 根据自己的需要，修改`xxxk-xkcommon/yong_thxnder.nsi`并用NSIS编译生成安装包。编译工具可在[小小星空网盘 :fa fa-external-link:][小小星空网盘]获取。
+3. 根据自己的需要，修改`xxxk-xkcommon/yong_thxnder.nsi`并用NSIS编译生成安装包。编译工具可在[小小星空网盘][小小星空网盘]获取。
 
 ### ** Android **
 
-1. 下载[原版小小输入法Android版安装程序 :fa fa-external-link:][小小网盘]，并用apktool反编译。
+1. 下载[原版小小输入法Android版安装程序][小小网盘]，并用apktool反编译。
 2. 根据自己的需要，修改反编译后的资源文件。例如：
    * `res/drawable-hdpi|mdpi|xhdpi/app_icon.png`是程序图标，可替换。
    * `assets/mb`是码表，会被安装到`sdcard/yong/mb`。注意，安卓版不会覆盖安装。
@@ -60,7 +60,7 @@
 
 ### ** Linux **
 
-请转至[小小输入法的项目仓库 :fa fa-external-link:][小小项目]取原版小小输入法Linux版的源代码。
+请转至[小小输入法的项目仓库][小小项目]取原版小小输入法Linux版的源代码。
 
 <!-- tabs:end -->
 

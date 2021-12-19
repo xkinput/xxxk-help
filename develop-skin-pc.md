@@ -19,11 +19,8 @@
 你可以移植其他输入法的皮肤，也可以自制皮肤。下面是一些常用的输入法皮肤下载站：
 
 * 小小论坛：http://yong.dgod.net/
-
 * 萌娘资源站：http://moe.005.tv/style/srf/
-
 * 百度输入法：https://shurufa.baidu.com/skin
-
 * 2345输入法：http://pinyin.2345.cc/skin_category.php
 
 >  从某一版本开始，搜狗和QQ输入法的皮肤进行了加密处理，无法提取素材。百度输入法的皮肤目前仍可以解压提取素材。

@@ -21,22 +21,17 @@
 ## 状态切换
 
 * **简**繁切换：<kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>J</kbd>
-
 * 全半角切换：<kbd>Ctrl</kbd><kbd>Space</kbd>
-
 * 中英文标点模式切换：<kbd>Ctrl</kbd><kbd>.</kbd>（ 或者按住<kbd>Alt</kbd>临时切换为英文标点模式）
-
 * 特殊模式：按<kbd>Ctrl</kbd>，则下次输入会变成特殊模式。在该模式下，你可以快速输入大写数字、日期、英文，甚至进行数学运算。
-
   ![特殊模式](_media\specialmode.png)
-
   > 特殊模式下打英文，只能用<kbd>Alt</kbd>+数字键来选择候选项，用<kbd>Enter</kbd>上屏。
 
 ## 特殊字符
 
-> 有些字符需要安装[开心宋体 :fa fa-external-link:](http://bbs.unispim.com/forum.php?mod=viewthread&tid=63329)或[天珩字库 :fa fa-external-link:](http://cheonhyeong.com/Simplified/download.html)才能显示，后者能显示的字更多。
+> 有些字符需要安装[开心宋体](http://www.guoxuedashi.net/zidian/bujian/KaiXinSong.php)或[天珩字库](http://cheonhyeong.com/Simplified/download.html)才能显示，后者能显示的字更多。
 
-* 两分输入：在星空系列方案下，用`u`引导，如`ulyly = 龖`（两分方案规则参考[字海两分输入方案 :fa fa-external-link:](http://cheonhyeong.com/Simplified/download.html)，或者`程序目录/doc/LiangFenHandbook.pdf`）
+* 两分输入：在星空系列方案下，用`u`引导，如`ulyly = 龖`（两分方案规则参考[字海两分输入方案](http://cheonhyeong.com/Simplified/download.html)，或者`程序目录/doc/LiangFenHandbook.pdf`）
 * 火星文（菊花文）模式：<kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>Alt</kbd><kbd>H</kbd>切换
 * 软键盘：通过输入法状态条呼出。右击符号键盘，可切换符号类别  
 * **符**号大全：`of`引导各类符号，`ol`引导LaTeX，`or`引导日文假名（平文式罗马音），`op`引导拼音和注音符号……按`o`即可看到提示

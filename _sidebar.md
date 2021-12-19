@@ -2,6 +2,8 @@
 * [下载安装](install.md)
 * [使用说明](intro.md)
   * [方案介绍](intro-schema.md)
+    * [星空键道](intro-schema-xkjd6.md)
+    * [字海两分](intro-schema-zhlf.md)
   * [开始打字](intro-typing.md)
   * [配置与码表](intro-custom.md)
   * [扩展功能](intro-extend.md)
