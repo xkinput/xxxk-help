@@ -1,6 +1,12 @@
 # 更新历史
 
-<iframe height='400' scrolling='no' title='小小星空更新时间线' src='_plugins/echarts-210911/timeline.html' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>小小星空更新时间线</iframe><!-- v5.2.0 -->
+<iframe height='400' scrolling='no' title='小小星空更新时间线' src='_plugins/echarts-211219/timeline.html' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>小小星空更新时间线</iframe><!-- v5.2.2 -->
+
+##### v1.0.4.0-Build20211219
+
+* 改进：键道码表跟进RIME版，主词条数：120906
+* 改进：Windows版小小输入法程序组件升级至20210731版，改进皮肤预览功能和兼容性
+* 改进：小小星空首页、公共码表等小修改
 
 ##### v1.0.3.0-Build20210911
 
