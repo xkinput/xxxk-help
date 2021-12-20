@@ -15,8 +15,8 @@
   /* Content */
   --link-text-decoration: ;
   --link-text-decoration--hover: underline;
-  --code-inline-background: var(--mono-tint3);
-  --code-theme-background: var(--mono-tint3);
+  --code-inline-background: var(--mono-tint2);
+  --code-theme-background: var(--mono-tint2);
 }
 
 /* Cover */

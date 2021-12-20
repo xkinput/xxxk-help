@@ -1,6 +1,6 @@
-# :fa fa-download: 下载安装
+# :fa fa-download: 安装小小
 
-本项目基于小小输入法，因此与小小输入法一样，支持Windows、Android、Linux平台，不支持苹果系统。
+小小星空输入法基于小小输入法，因此与小小输入法一样，支持Windows、Android、Linux平台，不支持苹果系统。
 
 <!-- tabs:start -->
 

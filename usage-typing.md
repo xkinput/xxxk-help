@@ -18,6 +18,8 @@
 * 临时全拼引导键：`e`（仅用于星空两笔）
 * **单**字模式：<kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>D</kbd>切换，开启后不能打词，适合练习单字
 
+> 遇到不会打、不认识的字词，除了用小小输入法自带的逆查编码、联网查字功能外，还可以使用在线[字词查询](tools#字词查询)工具。
+
 ## 状态切换
 
 * **简**繁切换：<kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>J</kbd>
@@ -29,9 +31,9 @@
 
 ## 特殊字符
 
-> 有些字符需要安装[开心宋体](http://www.guoxuedashi.net/zidian/bujian/KaiXinSong.php)或[天珩字库](http://cheonhyeong.com/Simplified/download.html)才能显示，后者能显示的字更多。
+> 有些字符需要安装[超大字集](tools#超大字集)才能显示。
 
-* 两分输入：在星空系列方案下，用`u`引导，如`ulyly = 龖`（两分方案规则参考[字海两分输入方案](http://cheonhyeong.com/Simplified/download.html)，或者`程序目录/doc/LiangFenHandbook.pdf`）
+* 两分输入：在星空系列方案下，用`u`引导，如`ulyly = 龖`（两分方案规则参阅[方案介绍：字海两分](schema-zhlf)）
 * 火星文（菊花文）模式：<kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>Alt</kbd><kbd>H</kbd>切换
 * 软键盘：通过输入法状态条呼出。右击符号键盘，可切换符号类别  
 * **符**号大全：`of`引导各类符号，`ol`引导LaTeX，`or`引导日文假名（平文式罗马音），`op`引导拼音和注音符号……按`o`即可看到提示
