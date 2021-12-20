@@ -1,4 +1,4 @@
-# :fa fa-archive: 相关工具
+# :fa fa-archive: 其他资源
 
 ## 方案练习
 

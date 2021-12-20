@@ -10,7 +10,7 @@
 * [开发指南](develop.md)
   * [定制本项目](develop-xxxk.md)
   * [定制皮肤（PC）](develop-skin-pc.md)
-* [相关工具](tools.md)
+* [其他资源](res.md)
 * [社区支持](community.md)
 * [更新历史](history.md)
 
