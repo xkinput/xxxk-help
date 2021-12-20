@@ -2,14 +2,12 @@
 
 # 小小星空
 
-[![version](https://img.shields.io/github/v/release/xkinput/xxxk?color=brightgreen)](https://github.com/xkinput/xxxk/releases) ![platform](https://img.shields.io/badge/platform-windows|android|linux-yellowgreen)
+[![version](https://img.shields.io/github/v/release/xkinput/xxxk?color=green)](https://github.com/xkinput/xxxk/releases) ![platform](https://img.shields.io/badge/platform-windows|android|linux-blue)
 
-> 将星空系列汉字编码方案挂载到小小输入法。
+> xkinput.github.io/xxxk-help
 
 * 基于小小输入法，强大而轻巧
 * 内置星空系方案，高效且易学
 * 深度定制，优化体验
 
-
-
-[<i class="fa fa-star-o"></i> &nbsp;关注项目](https://github.com/xkinput/xxxk) [<i class="fa fa-book"></i> &nbsp;快速上手](/install.md)
+[<i class="fa fa-star-o"></i> &nbsp;关注项目](https://github.com/xkinput/xxxk) [<i class="fa fa-book"></i> &nbsp;快速上手](/readme#快速上手)

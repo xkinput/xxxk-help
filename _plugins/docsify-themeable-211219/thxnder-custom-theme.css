@@ -5,8 +5,6 @@
   --cover-background-color: ;
   --cover-heading-color: var(--mono-shade3);
   --cover-heading-font-weight: bold;
-  --cover-button-primary-background--hover: #66CCFF;
-  --cover-button-primary-color--hover: var(--theme-color);
   --cover-button-background--hover: var(--theme-color);
   --cover-button-color--hover: white;
   /* Keyboard */

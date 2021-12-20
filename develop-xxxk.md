@@ -2,11 +2,11 @@
 
 ## 复刻源码
 
-本项目源码托管在码云：https://github.com/xkinput/xxxk
+前往[:fa fa-github: 项目仓库](https://github.com/xkinput/xxxk)，获取本项目源码。
 
 ## 项目架构
 
-本项目主要包含以下内容：
+如[快速上手](/readme#如果你是开发者)章节所述，本项目主要包含以下内容：
 
 ### xxxk-xkcommon目录
 
