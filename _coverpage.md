@@ -10,4 +10,4 @@
 * 内置星空系方案，高效且易学
 * 深度定制，优化体验
 
-[<i class="fa fa-star-o"></i> &nbsp;关注项目](https://github.com/xkinput/xxxk) [<i class="fa fa-book"></i> &nbsp;快速上手](/readme#快速上手)
+[<i class="fa fa-star-o"></i> &nbsp;关注项目](https://github.com/xkinput/xxxk) [<i class="fa fa-book"></i> &nbsp;快速上手](/README#快速上手)
