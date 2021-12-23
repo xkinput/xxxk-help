@@ -1,8 +1,8 @@
 # 方案介绍：星空键道
 
-本文旨在帮助读者快速入门键道方案，属于白话文性质的速成教程，若想了解更多，可进一步参阅以下资料：
-* [官方文档](https://xkinput.github.io/doc)
-* [群友整理的文档](https://pingshunhuangalex.gitbook.io/rime-xkjd/learn-xkjd)
+本文旨在帮助读者快速入门键道方案，属于白话文性质的速成教程，若想了解更全面详尽的内容，可参阅以下资料：
+
+* [RIME键道文档](https://pingshunhuangalex.gitbook.io/rime-xkjd/learn-xkjd)
 
 # 单字输入
 
