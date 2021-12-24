@@ -1,8 +1,12 @@
-# 小小星空
+# 项目概述
 
 **小小星空**是一个致力于将**星空系列汉字编码方案**挂载到**小小输入法**的项目。
 
-> 与本项目类似的项目为：[:fa fa-home: 星空系列方案官网](https://xkinput.github.io)，它与本项目最大的区别在于它是基于**RIME输入法**的。
+> 与本项目类似的项目有：[:fa fa-home: RIME键道](https://github.com/xkinput/Rime_JD)。二者的区别主要是小小输入法与RIME输入法的区别：
+> * 小小输入法：在Windows平台上的安装和使用更加方便和流畅
+> * RIME输入法：跨平台更多（支持苹果）、可编写脚本扩展（例如[:fa fa-github: 我的RIME脚本仓库](https://github.com/tswwe/my-rime-lua)）
+>
+> （以上纯属个人观点，详细的差异还需亲身使用对比方能感知）
 
 ## 名词解释
 

@@ -3,7 +3,7 @@
 ## 方案练习
 
 * [双拼练习](https://api.ihint.me/shuang/) —— 在线练习双拼键位，含星空键道方案
-* [极速云跟打](https://www.jsxiaoshi.com/index.php/Home/Cloud/index) —— 在线跟打器
+* [极速打字通](https://www.52dazi.cn) —— 在线跟打器
 * [玖枫跟打器](https://kylebing.cn/tools/typepad/) —— 在线跟打器
 
 ## 字词查询
