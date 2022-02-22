@@ -1,0 +1,26 @@
+name: Mirror this repo to Gitee and refresh Gitee pages
+
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+
+jobs:
+  sync-and-refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mirror a repository using SSH
+        uses: wearerequired/git-mirror-action@master
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY }}
+        with:
+          source-repo: "git@github.com:xkinput/xxxk-help.git"
+          destination-repo: "git@gitee.com:xkinput/xxxk-help.git"
+
+      - name: Build Gitee Pages
+        uses: yanglbme/gitee-pages-action@main
+        with:
+          gitee-username: "tswwe"
+          gitee-password: ${{ secrets.GITEE_PASSWORD }}
+          gitee-repo: "xkinput/xxxk-help"
+          branch: "master"
