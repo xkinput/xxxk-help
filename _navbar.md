@@ -4,6 +4,5 @@
 * [<i class="fa fa-question-circle"></i> 使用小小](usage.md)
 * [<i class="fa fa-code-fork"></i> 开发指南](develop.md)
 * [<i class="fa fa-archive"></i> 其他资源](res.md)
-* [<i class="fa fa-comments"></i> 社区支持](community.md)
 * [<i class="fa fa-pencil-square-o"></i> 更新历史](history.md)
 
