@@ -72,8 +72,8 @@
 
 [小小星空首页]: https://xkinput.github.io/xxxk-help
 [小小星空仓库]: https://github.com/xkinput/xxxk
-[小小星空网盘]: http://xxxk.ys168.com/
+[小小星空网盘]: http://xxxk.ysepan.com/
 
-[小小输入法网盘]: http://yongim.ys168.com
+[小小输入法网盘]: http://yongim.ysepan.com
 [小小输入法论坛]:http://yong.dgod.net
 [小小输入法仓库]: https://github.com/dgod/yong

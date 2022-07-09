@@ -12,7 +12,6 @@
   * [定制皮肤（PC）](develop-skin-pc.md)
 * [其他资源](res.md)
 * [更新历史](history.md)
-  * [2019-2021 年归档](history-2019-2021.md)
-  * [2018 年归档](history-2018.md)
   * [2017 年归档](history-2017.md)
-
+  * [2018 年归档](history-2018.md)
+  * [2019-2021 年归档](history-2019-2021.md)
