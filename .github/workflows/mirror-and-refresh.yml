@@ -1,4 +1,4 @@
-name: Mirror this repo to Gitee and refresh Gitee pages
+name: Mirror this repo to Gitee and refresh Gitee pages # Gitee pages has been closed to personal users, so it can't be refresh actually
 
 on:
   push:
@@ -17,10 +17,10 @@ jobs:
           source-repo: "git@github.com:xkinput/xxxk-help.git"
           destination-repo: "git@gitee.com:xkinput/xxxk-help.git"
 
-      - name: Build Gitee Pages
-        uses: yanglbme/gitee-pages-action@main
-        with:
-          gitee-username: "tswwe"
-          gitee-password: ${{ secrets.GITEE_PASSWORD }}
-          gitee-repo: "xkinput/xxxk-help"
-          branch: "master"
+#      - name: Build Gitee Pages
+#        uses: yanglbme/gitee-pages-action@main
+#        with:
+#          gitee-username: "tswwe"
+#          gitee-password: ${{ secrets.GITEE_PASSWORD }}
+#          gitee-repo: "xkinput/xxxk-help"
+#          branch: "master"
