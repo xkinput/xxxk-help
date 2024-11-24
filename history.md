@@ -4,20 +4,27 @@
 
 ## 最近更新
 
+##### [v2.0.1.0-Build20241124](https://github.com/xkinput/xxxk/releases/tag/v2.0.1)
+
+*主要是跟进小小输入法测试版的更新。暂时只有 Windows 版，Android 版后续再跟进。*
+
+* 更新小小输入法主程序至[2024年11月23日测试版](https://yong.dgod.net/read.php?tid=2)。⚠ 中英文状态切换异常问题仍然存在。
+* 修复安装包无法恢复用户设定的问题。
+* 调整安装包文件名，采用纯英文（文件名里的中文字符在上传 github release 时会被吞掉）。
+* 移除一些历史遗留文件，减小安装包体积。
+
 ##### [v2.0.0.0-Build20241117](https://github.com/xkinput/xxxk/releases/tag/v2.0.0)
 
-*经测试，该版本的小小输入法在某些应用中以 TSF 模式运行时，会出现中英文状态切换异常的问题：使用中英文切换快捷键（如 SHIFT）切换为英文状态后，再按下任意键，会导致输入法立刻变回中文状态。临时解决方案：使用打开/关闭输入法快捷键（如 CTRL+SPACE）来代替中英文切换快捷键。*
+*主要是优化了安装包，并跟进这两年小小输入法测试版的更新。暂时只有 Windows 版，Android 版后续再跟进。*
 
-* 调整项目架构为 app-win, data-base 和 data-schema 三个文件夹，方便后续维护
-* 升级小小输入法程序到 20241116 版（详见[小小输入法更新记录](http://yong.dgod.net/read.php?tid=2&fid=2)）
-* 打包程序由 NSIS2 升级为 NSIS3（详见 [NSIS 更新记录](https://nsis.sourceforge.io/Docs/AppendixF.html)）
-* 重写安装脚本（`app-win/nsis/xxxk.nsi`），简化流程，加强用户权限识别等
-* 键道码表跟进 RIME 版，主词条数：121386
-* 更新帮助文档等资料
+* 调整仓库目录结构，方便后续维护。
+* 升级小小输入法程序到 20241116 测试版。⚠ 此版本输入法在某些应用中以 TSF 模式运行时，会出现**中英文状态切换异常问题：**用中英文切换快捷键（如 SHIFT）切换为英文状态后，再按下任意键，会导致输入法立刻变回中文状态。**临时处理方案：**在这些应用中，使用打开/关闭输入法快捷键（如 CTRL+SPACE）或临时英文模式（如 CTRL）来代替中英文切换快捷键。
+* 打包程序由 NSIS2 升级为 NSIS3（详见 [NSIS 更新记录](https://nsis.sourceforge.io/Docs/AppendixF.html)）。
+* 重写安装脚本（`app-win/nsis/xxxk.nsi`），简化流程，加强用户权限识别，优先使用 64 位版本输入法等。
+* 键道码表跟进 RIME 版，主词条数：121386。
+* 更新帮助文档等资料。
 
-##### [v1.0.5.0(pre)-Build20220708](https://github.com/xkinput/xxxk/releases/tag/v1.0.5)
-
-*这是一个预发行版本，只更新了依赖组件，未更新主码表。如果上一版本使用没什么问题，可以不更新到此版。*
+##### [v1.0.5.0-Build20220708](https://github.com/xkinput/xxxk/releases/tag/v1.0.5)
 
 * 改进：跟进小小输入法程序组件升级（Windows 版修复了一些程序 bug，Android 版不再支持 32 位）
 * 改进：其他微调
