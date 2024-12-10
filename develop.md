@@ -2,9 +2,9 @@
 
 前往 [:fa fa-github: 本项目仓库][小小星空仓库]获取源代码。解压后可以得到三个一级目录：
 
-* `📂app-win`：存放编译生成**小小星空输入法**安装包的脚本。
-* `📂data-base`：对原版**小小输入法**的一部分配置文件进行魔改得到的文件。
-* `📂data-schema`：**星空系列方案**的核心文件。
+* `📂build`：存放编译生成**小小星空输入法**安装包的脚本。
+* `📂data`：编译生成**小小星空输入法**安装包所需的程序文件，通常由原版小小输入法安装包解包而得。
+* `📂home`：各种魔改原版**小小输入法**的数据文件，以及星空系列方案的码表文件。
 
 ?> 本项目依赖的小小输入法正在逐步开源，其 Linux 版本已全部开源，详见[:fa fa-github: 小小输入法项目仓库][小小输入法仓库]。
 
@@ -14,19 +14,17 @@
 
 ### ** Windows **
 
-1. 把原版**小小输入法**的程序目录 `yong` 放到 `app-win` 目录下。
-2. 根据自己的需要，修改 `app-win`、`data-base` 和 `data-schema` 目录下的文件。
-3. 安装 NSIS，编译 `app-win/nsis/xxxk.nsi`。
+1. 把原版**小小输入法**的程序目录 `yong` 里的内容放到 `data/yong-win` 目录下。
+2. 部署 NSIS，编译 `build/win/xxxk.nsi`。
 
 ### ** Android **
 
-1. 下载[原版小小输入法 Android 版安装程序][小小输入法网盘]，并用 apktool 反编译。
-2. 根据自己的需要，修改反编译后的资源文件。例如：
-   * `res/drawable-hdpi|mdpi|xhdpi/app_icon.png` 是程序图标，可替换。
-   * `assets/mb` 是码表，会被安装到`sdcard/yong/mb`。注意，安卓版不会覆盖安装。
-   * `assets/www` 是默认皮肤，一般包括 `fonts` 目录和 `keyboard.css`、`keyboard.html`，不会体现在程序目录中。如果安装完成后想换皮肤，要把皮肤放到 `.yong/android` 目录。
-   * `assets/yong.ini` 是初始配置文件。注意，小小安卓版不支持 entry。
-3. 用 apktool 重新编译为安装包，并用 autosign 等工具进行签名。
+1. 下载[原版小小输入法 Android 版安装程序](http://yong.dgod.net/sync/yong-android/yong.apk)，把 yong.apk 放到 `data/yong-android` 目录下。
+2. 下载 [apktool](https://apktool.org/docs/install)，把 apktool.jar 和 apktool.bat 放到 `data/yong-android` 目录下。
+3. 下载 [uber-apk-signer](https://github.com/patrickfav/uber-apk-signer)，把 uber-apk-signer.jar 放到 `data/yong-android` 目录下。
+4. 运行 xxxk.bat，执行 [A] 选项，得到 xxxk-signed.apk。
+
+?> 以上编译工具依赖 java8 或更高版本。
 
 ### ** Linux **
 
