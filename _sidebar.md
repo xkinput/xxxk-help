@@ -8,7 +8,6 @@
   * [进阶设置](usage-custom.md)
   * [其他扩展](usage-extend.md)
 * [开发指南](develop.md)
-  * [定制皮肤（PC）](develop-skin-pc.md)
 * [其他资源](res.md)
 * [更新历史](history.md)
   * [2017 年归档](history-2017.md)

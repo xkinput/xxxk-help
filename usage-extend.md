@@ -6,6 +6,8 @@
 
 * [小小星空扩展方案集合](https://github.com/xkinput/xxxk-schema-collection)：搜集了一些第三方制作或修改的方案，例如星空一道、星空两笔ZV、星空两笔单字版等。
 
+!> 该仓库里的方案架构尚未跟随新版小小星空变化，因此暂时不可用，有待后续跟进。
+
 ## 扩展皮肤
 
 * [小小星空扩展皮肤（PC）](https://github.com/xkinput/xxxk-skin-pc)：数十个皮肤供你选择，美化你的输入法。

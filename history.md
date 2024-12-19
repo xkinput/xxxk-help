@@ -4,6 +4,14 @@
 
 ## 最近更新
 
+##### [v2.0.4.0-Build20250111](https://github.com/xkinput/xxxk/releases/tag/v2.0.4)
+
+*继续改进编译流程，方便后续维护。*
+
+* feat: 增加一个小小输入法的新版皮肤（Default5.zip）。
+* feat：更新小小输入法主程序至[2025年1月10日测试版](https://yong.dgod.net/read.php?tid=2)，
+* chore: 编译 xxxk.nsi 时，自动将 xxxkConst.nsh 里的安装包版本号更新到 version.txt 和 menu.ini 里的版本信息。
+
 ##### [v2.0.3.0-Build20241216](https://github.com/xkinput/xxxk/releases/tag/v2.0.3)
 
 *主要是增强了可维护性：将输入法主程序与星空方案数据文件分离。*
@@ -12,14 +20,14 @@
 * chore: 增加 Android 版编译脚本 xxxk.bat，可快速打包生成 apk（参见[开发指南](develop.md)）。
 * chore: 优化 Windows 版编译脚本 xxxk.nsi，现在安装包会将数据文件安装到配置目录（而不是程序目录）。
 * feat: 现在 Windows 版可以单独更新输入法主程序了（右键菜单 🞂 小小输入法主程序 🞂 更新主程序）。
-* feat：更新小小输入法主程序至[2024年12月16日测试版](https://yong.dgod.net/read.php?tid=2)，启用新版小小输入法的启发式造词特性（code_hint），并支持新版小小输入法的云剪贴板功能（`;cc`）。
+* feat：更新小小输入法主程序至2024年12月16日测试版，启用新版小小输入法的启发式造词特性（code_hint），并支持新版小小输入法的云剪贴板功能（`;cc`）。
 * docs: 更新 yong.chm。
 
 ##### [v2.0.1.0-Build20241124](https://github.com/xkinput/xxxk/releases/tag/v2.0.1)
 
 *主要是跟进小小输入法测试版的更新。暂时只有 Windows 版，Android 版后续再跟进。*
 
-* 更新小小输入法主程序至[2024年11月23日测试版](https://yong.dgod.net/read.php?tid=2)。
+* 更新小小输入法主程序至2024年11月23日测试版。
 * 修复安装包无法恢复用户设定的问题。
 * 调整安装包文件名，采用纯英文（文件名里的中文字符在上传 github release 时会被吞掉）。
 * 移除一些历史遗留文件，减小安装包体积。
@@ -29,11 +37,15 @@
 *主要是优化了安装包，并跟进这两年小小输入法测试版的更新。暂时只有 Windows 版，Android 版后续再跟进。*
 
 * 调整仓库目录结构，方便后续维护。
-* 升级小小输入法程序到 20241116 测试版。⚠ 此版本输入法在某些应用中以 TSF 模式运行时，会出现**中英文状态切换异常问题：**用中英文切换快捷键（如 SHIFT）切换为英文状态后，再按下任意键，会导致输入法立刻变回中文状态。**临时处理方案：**在这些应用中，使用打开/关闭输入法快捷键（如 CTRL+SPACE）或临时英文模式（如 CTRL）来代替中英文切换快捷键。
-* 打包程序由 NSIS2 升级为 NSIS3（详见 [NSIS 更新记录](https://nsis.sourceforge.io/Docs/AppendixF.html)）。
+* 升级小小输入法程序到 20241116 测试版。
 * 重写安装脚本（`app-win/nsis/xxxk.nsi`），简化流程，加强用户权限识别，优先使用 64 位版本输入法等。
 * 键道码表跟进 RIME 版，主词条数：121386。
 * 更新帮助文档等资料。
+* 打包程序由 NSIS2 升级为 NSIS3（详见 [NSIS 更新记录](https://nsis.sourceforge.io/Docs/AppendixF.html)）。
+
+!> 已知新版小小输入法测试版在极少数软件（如[思源笔记](https://github.com/siyuan-note/siyuan/issues/4826)）中以 TSF 模式运行时，会出现**中英文状态切换异常问题：**用中英文切换快捷键（如 SHIFT）切换为英文状态后，再按下任意键，会导致输入法立刻变回中文状态。  
+**临时处理方案：**在这些应用中，使用打开/关闭输入法快捷键（如 CTRL+SPACE）或临时英文模式（如 CTRL）来代替中英文切换快捷键。  
+如果不能接受，请谨慎更新！
 
 ##### [v1.0.5.0-Build20220708](https://github.com/xkinput/xxxk/releases/tag/v1.0.5)
 

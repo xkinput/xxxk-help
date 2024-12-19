@@ -32,12 +32,6 @@
 
 <!-- tabs:end -->
 
-在编译之前，您也可以先对项目进行修改：
-
-* 定制 Windows 版编译脚本：待补充
-* [定制皮肤（PC）](develop-skin-pc.md)
-* 定制皮肤（Android）：待补充
-
 [星空QQ群]: https://jq.qq.com/?_wv=1027&k=5tVcZlL
 [键道QQ群]: https://jq.qq.com/?_wv=1027&k=WxhhXU6u
 [星空电报群]: https://t.me/xkinput
