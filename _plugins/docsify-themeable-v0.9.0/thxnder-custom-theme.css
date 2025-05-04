@@ -1,0 +1,79 @@
+/** reference: https://jhildenbiddle.github.io/docsify-themeable/#/customization **/
+
+:root{
+  /* Cover */
+  --cover-background-color: ;
+  --cover-heading-color: var(--mono-shade3);
+  --cover-heading-font-weight: bold;
+  --cover-button-background--hover: var(--theme-color);
+  --cover-button-color--hover: white;
+  /* Keyboard */
+  --kbd-margin: 0 0.3em;
+  --kbd-padding: 0.1em 0.1em;
+  --kbd-font-size: calc(var(--font-size-m) * 0.95);
+  --kbd-background: var(--mono-tint4);
+  /* Content */
+  --link-text-decoration: ;
+  --link-text-decoration--hover: underline;
+  --code-inline-background: var(--mono-tint2);
+  --code-theme-background: var(--mono-tint2);
+}
+
+/* Cover */
+.cover-main > h1 {
+  text-shadow: #FFF 2px 0 0, #FFF 0 2px 0, #FFF -2px 0 0, #FFF 0 -2px 0;
+}
+
+.heimu {
+  background-color: black;
+  color: black;
+  transition: all 1s;
+}
+.heimu:hover {
+  background-color: transparent;
+  color: black;
+}
+
+article.markdown-section a[href^="http"]:not(article.markdown-section>p:first-child>a) {
+  color: var(--theme-color);
+  font-weight: bold;
+}
+article.markdown-section a[href^="http"]::after {
+  content: " \f08e";
+  font-family: FontAwesome;
+  position: relative;
+  top: -0.3em;
+  font-size: 0.75em;
+}
+
+article.markdown-section h1 a[href^="#"]:hover, article.markdown-section h2 a[href^="#"]:hover, article.markdown-section h3 a[href^="#"]:hover, article.markdown-section h4 a[href^="#"]:hover, article.markdown-section h5 a[href^="#"]:hover, article.markdown-section h6 a[href^="#"]:hover {
+  text-decoration: none;
+}
+article.markdown-section h1 a[href^="#"]:hover::after, article.markdown-section h2 a[href^="#"]:hover::after, article.markdown-section h3 a[href^="#"]:hover::after, article.markdown-section h4 a[href^="#"]:hover::after, article.markdown-section h5 a[href^="#"]:hover::after, article.markdown-section h6 a[href^="#"]:hover::after {
+  content: " \f0c1";
+  font-family: FontAwesome;
+  position: relative;
+  font-size: 0.8em;
+}
+
+article.markdown-section p a[href^="#"], article.markdown-section ul a[href^="#"], article.markdown-section ol a[href^="#"] {
+  font-weight: bold;
+}
+article.markdown-section p a[href^="#"]::after, article.markdown-section ul a[href^="#"]::after, article.markdown-section ol a[href^="#"]::after {
+  content: " \f0c1";
+  font-family: FontAwesome;
+  position: relative;
+  font-size: 0.8em;
+}
+
+/* Customizing docsify-plugin-flexible-alerts */
+
+.alert.callout.note.thxnote {
+  border-left-color: var(--theme-color) !important;
+}
+.alert.callout.note.thxnote .title {
+  color: var(--theme-color); /* var(--base-color) */
+}
+.alert.callout.note.thxnote .title ::before{
+  color: var(--theme-color);
+}

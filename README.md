@@ -10,7 +10,8 @@
 * **汉字编码方案**：将键盘编码映射为汉字的一套规则，例如全拼、王码五笔、小鹤双拼等。本项目主要使用 *吅吅大山* 创造的星空系列方案，是一类以[顶功上屏](https://zhuanlan.zhihu.com/p/291029476)、易学易用为主要特色的汉字编码方案。
 * [输入法编辑器](https://docs.microsoft.com/zh-cn/windows/uwp/design/input/input-method-editors)（input method editor）：接受用户键盘输入，依照某一输入方案进行处理，并输出相应文字符号的软件。常见的有：搜狗拼音输入法、王码五笔输入法、小鹤音形输入法等。其中，有一类特殊的输入法，例如[中州韵输入法引擎](https://rime.im/)（Rime Input Method Engine）、[多多输入法生成器](https://www.chinput.com/portal.php)、[小小输入法][小小输入法论坛]（Yong）等，它们不专精于一种汉字编码方案，而是打造一个能够挂载各种编码方案的通用平台。本项目所使用的输入平台是由 *@dgod* 开发的小小输入法。
 
-?> 与本项目类似的项目有：[:fa fa-github: RIME键道][RIME键道仓库]，[:fa fa-github: RIME星空两笔](https://gitee.com/morler/rime_xklb)等。相比之下，小小输入法可能更加流畅，而 RIME 输入法则支持更多操作系统（包括 macOS）和 [:fa fa-github: 脚本扩展](https://github.com/tswwe/my-rime-lua)。
+> [!TIP|label:同类产品]
+> 与本项目类似的项目有：[:fa fa-github: RIME键道][RIME键道仓库]，[:fa fa-github: RIME星空两笔](https://gitee.com/morler/rime_xklb)等，它们都是基于中州韵输入法引擎（RIME）的，它支持更多操作系统（包括 macOS 和 iOS），也具有不错的 [:fa fa-github: 脚本扩展](https://github.com/tswwe/my-rime-lua)能力。
 
 ## 快速上手
 

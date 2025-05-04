@@ -7,9 +7,9 @@
   <meta name="小小星空的首页 & 帮助文档" content="xxxk-help">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="icon" type="image/x-icon" href="_media/favicon.ico"/>
-  <link rel="stylesheet" href="_plugins/font-awesome-4.7.0/css/font-awesome.min.css"><!-- v4.7.0 -->
-  <link rel="stylesheet" href="_plugins/docsify-themeable-211219/theme-simple.css" /> <!-- v0.8.6 -->
-  <link rel="stylesheet" href="_plugins/docsify-themeable-211219/thxnder-custom-theme.css"> <!-- v0.8.6 -->
+  <link rel="stylesheet" href="_plugins/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="_plugins/docsify-themeable-v0.9.0/theme-simple.css" />
+  <link rel="stylesheet" href="_plugins/docsify-themeable-v0.9.0/thxnder-custom-theme.css">
 
   <style>
     .docsify-tabs__tab[data-tab="windows"]:before{
@@ -30,7 +30,6 @@
         vertical-align: middle;
         margin-right: 0.5em;
     }
-  }
   </style>
 </head>
 <body>
@@ -75,18 +74,19 @@
         }
       },
       search: 'auto',
-      pagination: {
-        previousText: '上一节',
-        nextText: '下一节',
-        crossChapter: true,
-        crossChapterText: false,
-      },
       footer: {
         pre: '<hr/>',
-        copy: '<span>© 小小星空 2017-2024</span>',
+        copy: '<span>© 小小星空 2017-2025</span>',
         auth: '@thXnder',
         style: 'text-align: right;',
         class: 'thxnder-footer-class',
+      },
+      'flexible-alerts': {
+        thxnote: {
+          className: 'note thxnote',
+          icon: 'fa fa-lg fa-info-circle',
+          label: '备注',
+        }, 
       },
       plugins: [
         function(hook, vm) {
@@ -105,21 +105,21 @@
       ]
     }
   </script>
-  <script src="_plugins/docsify-220708/docsify.min.js"></script><!-- v4.12.2 -->
-  <script src="_plugins/docsify-tabs-210911/docsify-tabs.min.js"></script><!-- v1.5.2 -->
-  <script src="_plugins/docsify-emoji-220708/emoji.min.js"></script><!-- v4.12.2 -->
-  <script src="_plugins/docsify-copy-code-210615/docsify-copy-code.min.js"></script><!-- v2.1.1 -->
-  <script src="_plugins/docsify-fontawesome-210615/docsify-fontawesome.min.js"></script><!-- v0.0.6 -->
-  <script src="_plugins/docsify-sidebar-collapse-210615/docsify-sidebar-collapse.min.js"></script><!-- v1.3.5 -->
-  <script src="_plugins/docsify-corner-220708/docsify-corner.min.js"></script><!-- v1.0.7 -->
-  <script src="_plugins/docsify-search-220708/search.min.js"></script><!-- v4.12.2 -->
-  <script src="_plugins/docsify-pagination-211219/docsify-pagination.min.js"></script><!-- v2.10.0 -->
-  <script src="_plugins/docsify-footer-enh-210615/docsify-footer-enh.min.js"></script><!-- 0.0.6 -->
-  <script src="_plugins/docsify-prism-220708/prism-batch.min.js"></script><!-- v1.28.0 -->
-  <script src="_plugins/docsify-prism-220708/prism-ini.min.js"></script><!-- v1.28.0 -->
-  <script src="_plugins/docsify-prism-220708/prism-nsis.min.js"></script><!-- v1.28.0 -->
-  <script src="_plugins/docsify-themeable-211219/docsify-themeable.min.js"></script> <!-- v0.8.6 -->
-  <script src="_plugins/docsify-image-caption-241117/docsify-image-caption.min.js"></script> <!-- v0.1.2 -->
+  <script src="_plugins/docsify-v4.13.1/docsify.min.js"></script><!-- 230624 -->
+  <script src="_plugins/docsify-tabs-v1.6.3/docsify-tabs.min.js"></script><!-- 240425 -->
+  <!-- <script src="_plugins/[deprecated]docsify-emoji-v4.13.1/emoji.min.js"></script> --><!-- 230624 -->
+  <script src="_plugins/docsify-copy-code-v3.0.0/docsify-copy-code.min.js"></script><!-- 230819 -->
+  <script src="_plugins/docsify-fontawesome-v0.1.1/docsify-fontawesome.min.js"></script><!-- 241031 -->
+  <script src="_plugins/docsify-sidebar-collapse-v1.3.5/docsify-sidebar-collapse.min.js"></script><!-- 210214 -->
+  <script src="_plugins/docsify-corner-v1.0.7/docsify-corner.min.js"></script><!-- 220603 -->
+  <script src="_plugins/docsify-search-v4.13.1/search.min.js"></script><!-- 230624 -->
+  <script src="_plugins/docsify-footer-enh-v0.1.0/docsify-footer-enh.min.js"></script><!-- 241031 -->
+  <script src="_plugins/docsify-prism-v1.30.0/prism-batch.min.js"></script><!-- 250311 -->
+  <script src="_plugins/docsify--prism-v1.30.0/prism-ini.min.js"></script><!-- 250311 -->
+  <script src="_plugins/docsify--prism-v1.30.0/prism-nsis.min.js"></script><!-- 250311 -->
+  <script src="_plugins/docsify-themeable-v0.9.0/docsify-themeable.min.js"></script><!-- 220729 -->
+  <script src="_plugins/docsify-image-caption-v0.1.2/docsify-image-caption.min.js"></script><!-- 220707 -->
+  <script src="_plugins/docsify-plugin-flexible-alerts-v1.1.1/docsify-plugin-flexible-alerts.min.js"></script><!-- 221222 -->
 
 </body>
 </html>
