@@ -4,6 +4,13 @@
 
 ## 最近更新
 
+##### [v2.0.6.0-Build20250508](https://github.com/xkinput/xxxk/releases/tag/v2.0.6)
+
+*修缮文档。*
+
+* feat：更新主程序至[2025年5月8日测试版](https://yong.dgod.net/read.php?tid=2)。
+* doc：更新文档内容和组件，补充关于 Linux 和 Android 的安装使用说明。
+
 ##### [v2.0.5.0-Build20250426](https://github.com/xkinput/xxxk/releases/tag/v2.0.5)
 
 *日常更新主程序。*
