@@ -6,15 +6,15 @@
 	<meta HTTP-EQUIV="expires" CONTENT="Wed, 26 Feb 1997 08:21:57 GMT"> 
 	<meta HTTP-EQUIV="expires" CONTENT="0">
 	<meta charset="utf-8">
-	<script src="echarts.min.js"></script>
+	<script src="echarts.bundle.min.js"></script>
 </head>
 <body>
 	<!-- 为ECharts准备一个具备大小（宽高）的Dom -->
 	<div id="log-chart" style="width: 100%;height:400px;"></div>
 	<script type="text/javascript">
 		// 基于准备好的dom，初始化echarts实例
-		var myChart = echarts.init(document.getElementById('log-chart'));
-		option = {
+		let myChart = echarts.init(document.getElementById('log-chart'));
+		let option = {
 		    title: {
 		        text: '小小星空更新时间线',
 		        left: 'center',
@@ -186,6 +186,6 @@
 			],
 		};
 		// 使用刚指定的配置项和数据显示图表。
-		myChart.setOption(option);
+		option && myChart.setOption(option);
 	</script>
 </html>

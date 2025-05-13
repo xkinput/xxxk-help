@@ -1,6 +1,6 @@
 # :fa fa-download: 安装小小
 
-小小星空输入法是小小输入法的一个定制版本，和小小输入法一样支持 Windows（XP～Win11）、Linux、Android 系统，不支持 macOS 或 iOS 系统。
+小小星空输入法是小小输入法的一个定制版本，和小小输入法一样支持 Windows（XP～Win11）、Linux、Android（6.0+）系统，不支持 macOS 或 iOS 系统。
 
 <!-- tabs:start -->
 

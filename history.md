@@ -1,15 +1,22 @@
 # 更新历史
 
-<iframe height='400' scrolling='no' title='小小星空词库更新时间线' src='_plugins/echarts-241117/timeline.html' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>小小星空词库更新时间线</iframe><!-- v5.3.3 -->
+<iframe height='400' scrolling='no' title='小小星空词库更新时间线' src='_plugins/echarts-v5.6.0/timeline.html' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>小小星空词库更新时间线</iframe><!-- 241228 -->
 
 ## 最近更新
+
+##### [v2.0.7.0-Build20250512](https://github.com/xkinput/xxxk/releases/tag/v2.0.7)
+
+*小修小补。*
+
+* feat：更新主程序至[2025年5月12日测试版](https://yong.dgod.net/read.php?tid=2)。
+* fix：因两个功能的快捷键不再兼容，现恢复联网查字和反查编码功能的快捷键为默认。
 
 ##### [v2.0.6.0-Build20250508](https://github.com/xkinput/xxxk/releases/tag/v2.0.6)
 
 *修缮文档。*
 
 * feat：更新主程序至[2025年5月8日测试版](https://yong.dgod.net/read.php?tid=2)。
-* doc：更新文档内容和组件，补充关于 Linux 和 Android 的安装使用说明。
+* doc：更新在线文档内容和组件（补充关于 Linux 和 Android 的安装使用说明），更新 yong.chm 到 [241212 版](https://yong.dgod.net/read.php?tid=33)。
 
 ##### [v2.0.5.0-Build20250426](https://github.com/xkinput/xxxk/releases/tag/v2.0.5)
 
