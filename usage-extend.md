@@ -11,7 +11,7 @@
 ## 扩展皮肤
 
 * [小小星空扩展皮肤（PC）](https://github.com/xkinput/xxxk-skin-pc)：数十个皮肤供你选择，美化你的输入法。
-* 小小星空扩展皮肤（Android）
+* 小小星空扩展皮肤（Android）：目前安卓版的皮肤取自 [kai](http://kaikaikai.ysepan.com) 制作的“彩”。
 
 ## 扩展工具
 

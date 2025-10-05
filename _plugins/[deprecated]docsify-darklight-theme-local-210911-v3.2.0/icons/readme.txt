@@ -1,1 +1,0 @@
-图标路径在index.html中的window.$docsify里设置
