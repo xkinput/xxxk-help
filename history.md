@@ -4,6 +4,14 @@
 
 ## 最近更新
 
+##### [v2.0.9.0-Build20251207](https://github.com/xkinput/xxxk/releases/tag/v2.0.9)
+
+*例行更新。*
+
+* feat: 更新主程序至[2025年12月4日测试版](https://yong.dgod.net/read.php?tid=2)。
+* feat: 安卓版“彩”皮肤更新至 251128 版。
+* doc: 更新在线文档内容和组件。
+
 ##### [v2.0.8.0-Build20251005](https://github.com/xkinput/xxxk/releases/tag/v2.0.8)
 
 *小修小补。*
