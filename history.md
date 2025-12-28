@@ -4,6 +4,17 @@
 
 ## 最近更新
 
+##### [v2.0.10.0-Build20251229](https://github.com/xkinput/xxxk/releases/tag/v2.0.10)
+
+*「形码大修正」。*
+
+* fix: 跟进 [RIME键道更新](https://github.com/xkinput/Rime_JD/compare/6f9c143ac9c0...84d747a65697)。
+* fix: o引导码表增加一些数学符号。
+* fix: 安卓版「彩」皮肤简繁切换功能失效。
+* fix: 小小输入法主程序更新至[2025年12月27日测试版](https://yong.dgod.net/read.php?tid=2)。
+* chore: 修复 windows 版安装包升级安装时无法恢复原来默认方案设置的 bug。
+* chore: 安卓版安装包编译脚本增加 outApkName 变量。
+
 ##### [v2.0.9.0-Build20251207](https://github.com/xkinput/xxxk/releases/tag/v2.0.9)
 
 *例行更新。*
