@@ -290,12 +290,12 @@ unset QT_IM_MODULE
 [星空电报群]: https://t.me/xkinput
 
 [星空官网]: https://xkinput.github.io
-[RIME键道文档]: https://pingshunhuangalex.gitbook.io/rime-xkjd
-[RIME键道仓库]: https://github.com/xkinput/Rime_JD
+[RIME键道文档]: https://keytao-docs.vercel.app
+[RIME键道仓库]: https://github.com/xkinput/KeyTao
 
 [小小星空首页]: https://xkinput.github.io/xxxk-help
 [小小星空仓库]: https://github.com/xkinput/xxxk
-[小小星空网盘]: http://xxxk.ysepan.com/
+[小小星空网盘]: http://xxxk.ysepan.com
 
 [小小输入法网盘]: http://yongim.ysepan.com
 [小小输入法论坛]: https://yong.dgod.net

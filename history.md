@@ -4,12 +4,22 @@
 
 ## 最近更新
 
+##### [v2.0.11.0-Build20260416](https://github.com/xkinput/xxxk/releases/tag/v2.0.11)
+
+*为词库自动更新作铺垫。*
+
+* chore: 增加一个 Github Actions 工作流，定期自动从 KeyTao 仓库（master 分支）拉取词库更新至 xxxk 仓库（xkjd6-mb 分支）。
+* dict: 跟进 [RIME键道更新](https://github.com/xkinput/KeyTao/commit/23e9454dfc2636dddc7a409a24b9bfc497bbb6c7)。
+* dict: 调整词库中和 RIME 键道有关的链接。
+* feat: 小小输入法主程序更新至[2026年4月13日测试版](https://yong.dgod.net/read.php?tid=2)。
+* fix: 码表中云剪贴板指令错误。
+
 ##### [v2.0.10.0-Build20251229](https://github.com/xkinput/xxxk/releases/tag/v2.0.10)
 
 *「形码大修正」。*
 
-* fix: 跟进 [RIME键道更新](https://github.com/xkinput/Rime_JD/compare/6f9c143ac9c0...84d747a65697)。
-* fix: o引导码表增加一些数学符号。
+* dict: 跟进 [RIME键道更新](https://github.com/xkinput/Rime_JD/compare/6f9c143ac9c0...84d747a65697)。
+* dict: o引导码表增加一些数学符号。
 * fix: 安卓版「彩」皮肤简繁切换功能失效。
 * fix: 小小输入法主程序更新至[2025年12月27日测试版](https://yong.dgod.net/read.php?tid=2)。
 * chore: 修复 windows 版安装包升级安装时无法恢复原来默认方案设置的 bug。

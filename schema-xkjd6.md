@@ -1,7 +1,7 @@
 # 方案介绍：星空键道
 
 > [!TIP|label:相关资料]
-> 本文属于白话文性质的速成教程，若想了解关于键道方案更详尽的内容，可参阅 [RIME键道文档](https://pingshunhuangalex.gitbook.io/rime-xkjd/learn-xkjd)。
+> 本文属于白话文性质的速成教程，若想了解关于键道方案更详尽的内容，可参阅 [RIME键道文档](https://keytao-docs.vercel.app)。
 
 # 单字输入
 

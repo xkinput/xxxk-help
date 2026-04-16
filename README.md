@@ -11,7 +11,7 @@
 * [输入法编辑器](https://docs.microsoft.com/zh-cn/windows/uwp/design/input/input-method-editors)（input method editor）：接受用户键盘输入，依照某一输入方案进行处理，并输出相应文字符号的软件。常见的有：搜狗拼音输入法、王码五笔输入法、小鹤音形输入法等。其中，有一类特殊的输入法，例如[中州韵输入法引擎](https://rime.im/)（Rime Input Method Engine）、[多多输入法生成器](https://www.chinput.com/portal.php)、[小小输入法][小小输入法论坛]（Yong）等，它们不专精于一种汉字编码方案，而是打造一个能够挂载各种编码方案的通用平台。本项目所使用的输入平台是由 *@dgod* 开发的小小输入法。
 
 > [!TIP|label:同类产品]
-> 与本项目类似的项目有：[:fa fa-github: RIME键道][RIME键道仓库]，[:fa fa-github: RIME星空两笔](https://gitee.com/morler/rime_xklb)等，它们都是基于中州韵输入法引擎（RIME）的，它支持更多操作系统（包括 macOS 和 iOS），也具有不错的 [:fa fa-github: 脚本扩展](https://github.com/tswwe/my-rime-lua)能力。
+> 与本项目类似的项目有：[:fa fa-github: RIME键道][RIME键道仓库]，[:fa fa-github: RIME星空两笔](https://gitee.com/morler/rime_xklb)等，它们都是基于中州韵输入法引擎（RIME）的，该引擎支持更多操作系统（包括 macOS 和 iOS），且拥有强大的 [:fa fa-github: 脚本扩展](https://github.com/tswwe/my-rime-lua)能力。
 
 ## 快速上手
 
@@ -39,7 +39,7 @@
 ### 项目
 
 * [:fa fa-home: 星空官网][星空官网] —— 星空门户网站
-* [:fa fa-home: RIME键道](https://github.com/xkinput/Rime_JD) —— 本项目内置键道方案的码表来源
+* [:fa fa-home: RIME键道][RIME键道仓库] —— 本项目内置键道方案的码表来源
 * [:fa fa-hdd-o: 大牛的网盘](http://daniushuangpin.ysepan.com) —— 本项目内置星空一笔、星空二笔、星空星笔方案的码表来源
 * [:fa fa-home: 字海两分输入法](http://cheonhyeong.com/Simplified/download.html) —— 本项目内置字海两分方案的码表来源
 * [:fa fa-home: 小小输入法][小小输入法论坛] —— 本项目所用的输入法平台
@@ -49,12 +49,12 @@
 [星空电报群]: https://t.me/xkinput
 
 [星空官网]: https://xkinput.github.io
-[RIME键道文档]: https://pingshunhuangalex.gitbook.io/rime-xkjd
-[RIME键道仓库]: https://github.com/xkinput/Rime_JD
+[RIME键道文档]: https://keytao-docs.vercel.app
+[RIME键道仓库]: https://github.com/xkinput/KeyTao
 
 [小小星空首页]: https://xkinput.github.io/xxxk-help
 [小小星空仓库]: https://github.com/xkinput/xxxk
-[小小星空网盘]: http://xxxk.ysepan.com/
+[小小星空网盘]: http://xxxk.ysepan.com
 
 [小小输入法网盘]: http://yongim.ysepan.com
 [小小输入法论坛]: https://yong.dgod.net
