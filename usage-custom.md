@@ -23,7 +23,7 @@
 
 ## ** Android **
 
-在 Android 系统中，配置目录一般是 `sdcard/yong/.yong`。
+在 Android 系统中，配置目录一般是 `/sdcard/yong/.yong`。
 
 ## ** Linux **
 

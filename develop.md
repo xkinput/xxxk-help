@@ -34,10 +34,22 @@
 ### ** Android **
 
 1. 部署 [jdk8](https://openjdk.org) 或更高版本。
-2. 下载 [apktool](https://apktool.org/docs/install)，把 apktool.jar 和 apktool.bat 放到本仓库的 data/yong-android 目录下。
-3. 下载 [uber-apk-signer](https://github.com/patrickfav/uber-apk-signer)，把 uber-apk-signer.jar 放到本仓库的 data/yong-android 目录下。
-4. 下载[原版小小输入法 Android 版安装程序](http://yong.dgod.net/sync/yong-android/yong.apk)，把 yong.apk 放到本仓库的 data/yong-android 目录下。
-5. 运行本仓库的 data/yong-android/xxxk.bat，执行 [A] 选项，即可得到小小星空的安装包 xxxk-signed.apk。
+2. 下载 [apktool](https://apktool.org/docs/install)，把 apktool.jar 和 apktool.bat 放到本仓库的 build/yong-android 目录下。
+3. 下载 [uber-apk-signer](https://github.com/patrickfav/uber-apk-signer)，把 uber-apk-signer.jar 放到本仓库的 build/yong-android 目录下。
+4. 下载[原版小小输入法 Android 版安装程序](http://yong.dgod.net/sync/yong-android/yong.apk)，把 yong.apk 放到本仓库的 build/yong-android 目录下。
+5. 运行本仓库的 build/yong-android/xxxk.bat，执行 [D] 选项，把 yong.apk 反编译得到 data/yong-android 目录。
+6. 运行本仓库的 build/yong-android/xxxk.bat，执行 [R] 选项，将有关资源文件写入 data/yong-android/assets 目录。
+7. 根据自己的需要，修改 data/yong-android 里的资源文件。例如：
+
+   * `res/drawable-hdpi|mdpi|xhdpi/app_icon.png` 是程序图标，可替换。
+   * `assets/version.txt` 表明当前安装包的名称和版本号。当满足以下条件之一时，assets 里的大部分文件会被释放到 `/sdcard/yong` 并替换原文件。① `/sdcard/yong` 不存在。② `assets/version.txt` 里的名称非空并且与 `/sdcard/yong/version.txt` 不同（会先删除 `/sdcard/yong` 再释放文件）。③ `assets/version.txt` 里的名称非空并且与 `/sdcard/yong/version.txt` 相同，且 `assets/version.txt` 的版本号大于 `/sdcard/yong/version.txt` 里的版本号。
+   * `assets/mb` 码表。
+   * `assets/www` 默认皮肤，一般包括 `fonts` 目录和 `keyboard.css`、`keyboard.html`，不会体现在程序目录中。如果安装完成后想添加皮肤，要把皮肤放到 `/sdcard/.yong/android` 目录。
+   * `assets/yong.ini` 是初始配置文件。注意，小小安卓版不支持 entry。
+   * `assets/.yong` 用户数据。注意，原版安装包永远不会释放该目录到 `/sdcard/yong`，小小星空通过修改反编译后的 smali 文件，改变了这一限制。
+
+8. 运行本仓库的 build/yong-android/xxxk.bat，执行 [C] 选项，进行重新编译。
+9. 运行本仓库的 build/yong-android/xxxk.bat，执行 [S] 选项，进行签名，得到 xxxk-signed.apk。
 
 ### ** Linux **
 

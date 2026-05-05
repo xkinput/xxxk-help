@@ -4,6 +4,25 @@
 
 ## 最近更新
 
+##### [v2.1.0.0-Build20260505](https://github.com/xkinput/xxxk/releases/tag/v2.1.0)
+
+*更新之更新。*
+
+* perf: 更新 Windows 版和 Android 版主程序至 [20260502 测试版](https://yong.dgod.net/read.php?tid=2)。
+* feat: 在 Windows 版安装包中加入 windikt，现在可以通过**右击输入法状态条 🞂 更新**来升级程序或更新键道码表了。
+* fix: Android 版现在可以通过**图形设置界面 🞂 服务 🞂 更新**来升级主程序而不会导致皮肤丢失了。
+* dict: 更新键道方案码表，与 [RIME 键道](https://github.com/xkinput/KeyTao/commit/3ca5af88a4d88a938dd18661a15375fb88c64522)同步（20260430）。
+* dict: “在线码表”表述调整为“反馈码表修改建议”（Windows 版的菜单 menu.ini 同步修改）。
+* dict: 假名（Kana）由 or 改为 ok 触发；日期时间（time）由 oo 改为 ot 触发。
+* chore: 调整 xxxk.bat 编译逻辑，将码表等主要数据从 assets 转移至 assets/.yong（version.txt 和 yong.ini 仍留在 assets）、皮肤文件从 assets/www 转移至 assets/.yong/android、默认不打包 english.txt 以节约内存。
+* docs: 修订文档有关内容。
+
+##### [v2.0.12.0-Build20260422](https://github.com/xkinput/xxxk/releases/tag/v2.0.12)
+
+*修复错误。*
+
+* fix: 修复上一版本中键道单字码表出现重复的问题。
+
 ##### [v2.0.11.0-Build20260416](https://github.com/xkinput/xxxk/releases/tag/v2.0.11)
 
 *为词库自动更新作铺垫。*
