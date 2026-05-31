@@ -1,3 +1,6 @@
+> [!ATTENTION|label:文档已过时]
+> ⚠️此文档内容已过时，请转至新文档：[xxxk.input.press](https://xxxk.input.press)。
+
 # 定制本项目
 
 ## 复刻源码

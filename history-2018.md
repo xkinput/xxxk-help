@@ -1,3 +1,6 @@
+> [!ATTENTION|label:文档已过时]
+> ⚠️此文档内容已过时，请转至新文档：[xxxk.input.press](https://xxxk.input.press)。
+
 # 2018 年归档
 
 ##### 20181217

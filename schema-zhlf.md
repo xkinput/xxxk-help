@@ -1,3 +1,6 @@
+> [!ATTENTION|label:文档已过时]
+> ⚠️此文档内容已过时，请转至新文档：[xxxk.input.press](https://xxxk.input.press)。
+
 # 方案介绍：字海两分
 
 > 字海两分输入方案（以下简称两分方案）并非星空系列方案，其作者为叶先生（[叶典网](http://yedict.com)的总管）。

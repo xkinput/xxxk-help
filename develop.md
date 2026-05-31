@@ -1,3 +1,6 @@
+> [!ATTENTION|label:文档已过时]
+> ⚠️此文档内容已过时，请转至新文档：[xxxk.input.press](https://xxxk.input.press)。
+
 # :fa fa-code-fork: 开发指南
 
 前往 [:fa fa-github: 本项目仓库][小小星空仓库]获取源代码。解压后可以得到三个一级目录：

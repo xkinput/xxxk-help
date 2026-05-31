@@ -1,3 +1,6 @@
+> [!ATTENTION|label:文档已过时]
+> ⚠️此文档内容已过时，请转至新文档：[xxxk.input.press](https://xxxk.input.press)。
+
 # 更新历史
 
 <iframe height='400' scrolling='no' title='小小星空键道词库更新时间线' src='_plugins/echarts-v6.0.0/timeline.html' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>小小星空键道词库更新时间线</iframe><!-- 250730 -->

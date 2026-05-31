@@ -1,3 +1,6 @@
+> [!ATTENTION|label:文档已过时]
+> ⚠️此文档内容已过时，请转至新文档：[xxxk.input.press](https://xxxk.input.press)。
+
 # :fa fa-keyboard-o: 方案介绍
 
 小小星空目前内置了 4 个星空系列编码方案（星空键道、星空一笔、星空二笔、星空星笔）和 1 个全拼方案。

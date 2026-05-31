@@ -1,3 +1,6 @@
+> [!ATTENTION|label:文档已过时]
+> ⚠️此文档内容已过时，请转至新文档：[xxxk.input.press](https://xxxk.input.press)。
+
 # :fa fa-question-circle: 使用小小
 
 本章介绍小小星空输入法程序的一些基本用法（注意不是[方案介绍](schema.md)），主要包括：

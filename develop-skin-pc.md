@@ -1,3 +1,6 @@
+> [!ATTENTION|label:文档已过时]
+> ⚠️此文档内容已过时，请转至新文档：[xxxk.input.press](https://xxxk.input.press)。
+
 # 定制皮肤（PC）
 
 ?> 本章内容也适用于原版的小小输入法，可以看成是对原版文档（`程序目录/doc/yong.chm`）的重点总结和补充。

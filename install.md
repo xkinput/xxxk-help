@@ -1,3 +1,6 @@
+> [!ATTENTION|label:文档已过时]
+> ⚠️此文档内容已过时，请转至新文档：[xxxk.input.press](https://xxxk.input.press)。
+
 # :fa fa-download: 安装小小
 
 小小星空输入法是小小输入法的一个定制版本，和小小输入法一样支持 Windows（XP～Win11）、Linux、Android（6.0+）系统，不支持 macOS 或 iOS 系统。

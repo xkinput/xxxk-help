@@ -1,3 +1,6 @@
+> [!ATTENTION|label:文档已过时]
+> ⚠️此文档内容已过时，请转至新文档：[xxxk.input.press](https://xxxk.input.press)。
+
 # 基本功能
 
 当你了解了一种星空系列方案（可参阅[方案介绍](schema.md)）后，便可以开始利用小小星空输入法进行打字。
