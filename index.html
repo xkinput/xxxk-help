@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="_plugins/font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="_plugins/docsify-themeable-v0.9.0/theme-simple.css" />
   <link rel="stylesheet" href="_plugins/docsify-themeable-v0.9.0/thxnder-custom-theme.css">
+  <link rel="stylesheet" href="_plugins/docsify-top-banner-plugin-v0.4.0/style.min.css" />
 
   <style>
     .docsify-tabs__tab[data-tab="windows"]:before{
@@ -88,6 +89,9 @@
           label: '备注',
         }, 
       },
+      topBanner: {
+        content: '⚠️此文档内容已过时，请转至新文档：<a href="https://xxxk.input.press" target="_self">xxxk.input.press</a>'
+      },
       plugins: [
         function(hook, vm) {
           hook.beforeEach(function(html) {
@@ -120,6 +124,7 @@
   <script src="_plugins/docsify-themeable-v0.9.0/docsify-themeable.min.js"></script><!-- 220729 -->
   <script src="_plugins/docsify-image-caption-v0.1.2/docsify-image-caption.min.js"></script><!-- 220707 -->
   <script src="_plugins/docsify-plugin-flexible-alerts-v1.3.0/docsify-plugin-flexible-alerts.min.js"></script><!-- 260418 -->
+  <script src="_plugins/docsify-top-banner-plugin-v0.4.0/index.min.js"></script><!-- 260531 -->
 
 </body>
 </html>
